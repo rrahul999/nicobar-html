@@ -1,5 +1,4 @@
 
-
 .header{
   position:fixed;
    z-index: 100;
@@ -34,9 +33,27 @@
   .navbar .box5{
     float:right;
   }
+  @media screen and (max-width:420px){
+    .navbar .box5 {
+      float:left;
+      width : 50%;
+      position: relative;
+    }
+   
+  }
+
   .hero{
     width:100%;
     margin-top:65px; 
+  }
+  @media screen and (max-width:420px){
+    .hero {
+      float:none;
+      width : 100%;
+      position: relative;
+      margin-top:0px;
+    }
+   
   }
   
   .ele1 {
@@ -56,6 +73,9 @@
     .ele1 {
       float:none;
       width : 50%;
+      position: relative;
+    }
+    .header {
       position: relative;
     }
   }
@@ -95,19 +115,26 @@
   body { position: absolute; }
 
 
-
-
 .navigation {
   width: 300px;
   height: 1200px;
   background-color: Gainsboro;
   position:auto;
 }
+@media screen and (max-width:420px){
+  .navigation {
+    float:none;
+    text-align: center;
+    width : 100%;
+    position: relative;
+    height: 100%;
+    margin-top:-15px;
+  }
+}
 .mainmenu, .submenu {
   list-style: none;
   padding: 0;
-  margin: 15px;
-  
+  margin: 15px; 
 }
 
 .mainmenu a {
@@ -117,14 +144,6 @@
   padding: 10px;
   color: rgb(71, 8, 8);
   overflow: auto;
-}
-@media screen and (max-width:400px){
-  .mainmenu a {
-    float:none;
-    text-align: center;
-    width : 100%;
-    position: relative;
-  }
 }
 
 .mainmenu a:hover {
@@ -150,7 +169,6 @@
   -webkit-transition: all 0.8s ease-out;
 }
 
-
 .main {
   width: 100%;
   height: 1500px;
@@ -159,13 +177,18 @@
   margin-top: 0%;
   flex-wrap: wrap;
 }
+
 .main .flex1{
   flex: 25%;
 }
 .main .flex2{
   flex: 75%;
 }
-  
+@media screen and (max-width:420px){
+  .main .flex2{
+    position: relative;
+  }
+} 
 
 .card {
   width: 210px;
@@ -180,24 +203,7 @@
 
 }
 
-@media screen and (max-width:400px){
-  .flex2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 100%;
-    width: 100%;
-    position: relative;
-  }
-}
-@media screen and (max-width:350px){
-  .flex2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 100%;
-    width: 100%;
-    position: relative;
-  }
-}
+
 .card .width{
   width:100%;
 }
@@ -233,12 +239,22 @@
   padding: 0;
   display: inline-block;
   z-index: 100;
-
 }
+
 .footer li{
   float:left;
   font-size:20px;
   margin-right: 38px;
+}
+@media screen and (max-width:420px){
+  .footer li{
+    float:none;
+    width : 100%;
+    position: relative;
+  }
+  .footer{
+    position: relative;
+  }
 }
 
 
