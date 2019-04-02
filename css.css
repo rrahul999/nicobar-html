@@ -9,8 +9,7 @@
     padding: 0;
     overflow: auto;
     background-color: rgba(152, 251, 152, 0.404);
-    margin-top: 0;
-     
+    margin-top: 0;  
   }
   .navbar .box1{
     padding:23px;
@@ -184,11 +183,7 @@
 .main .flex2{
   flex: 75%;
 }
-@media screen and (max-width:420px){
-  .main .flex2{
-    position: relative;
-  }
-} 
+ 
 
 .card {
   width: 210px;
@@ -200,8 +195,29 @@
   margin: 10px;
   margin-left: 0px;
   padding: 0;
-
 }
+@media screen and (max-width:420px){
+  .card {
+    flex: 25%;
+    width: 25%;
+    position: relative;
+  } 
+}
+@media screen and (max-width:400px){
+  .card {
+    flex: 50%;
+    width: 50%;
+    position: relative;
+  } 
+}
+@media screen and (max-width:380px){
+  .card {
+    flex: 100%;
+    width: 100%;
+    position: relative;
+  } 
+}
+
 
 
 .card .width{
@@ -246,16 +262,20 @@
   font-size:20px;
   margin-right: 38px;
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:320px){
   .footer li{
     float:none;
     width : 100%;
     position: relative;
   }
-  .footer{
-    position: relative;
-  }
+  
 }
+
+
+    
+  
+    
+
 
 
     
