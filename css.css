@@ -36,7 +36,7 @@
   .navbar .box5{
     float:right;
   }
-  @media screen and (max-width:420px){
+  @media screen and (max-width:700px){
     .navbar .box5 {
       width : 50%;
       position: relative;
@@ -48,7 +48,7 @@
     width:100%;
     margin-top:65px; 
   }
-  @media screen and (max-width:420px){
+  @media screen and (max-width:700px){
     .hero {
       float:none;
       width : 100%;
@@ -71,7 +71,7 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  @media screen and (max-width:420px){
+  @media screen and (max-width:700px){
     .ele1 {
       float:none;
       width : 50%;
@@ -123,7 +123,7 @@
   background-color: Gainsboro;
   position:auto;
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:700px){
   .navigation {
     float:none;
     text-align: center;
@@ -199,7 +199,7 @@
   margin-left: 0px;
   padding: 0;
 }
-@media screen and (max-width:420px){
+@media screen and (max-width:700px){
   .card {
     flex: 25%;
     width: 25%;
@@ -271,8 +271,9 @@
     width : 100%;
     position: relative;
   }
-  
 }
+
+
 
 
     
