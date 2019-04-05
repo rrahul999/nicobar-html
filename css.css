@@ -1,11 +1,8 @@
 
-
-
 .header{
   position:fixed;
    z-index: 100;
-   width: 100%;
-   
+   width: 100%; 
 }
 .navbar {
     list-style-type: none;
@@ -29,7 +26,6 @@
     margin : 12px;
     border-radius: 8px;
   }
-
   .navbar .box4{
     float:left;
      padding:10px;
@@ -42,9 +38,7 @@
       width : 50%;
       position: relative;
     }
-   
   }
-
   .hero{
     width:100%;
     margin-top:60px; 
@@ -56,15 +50,12 @@
       position: relative;
       margin-top:0px;
     }
-   
   }
-  
   .ele1 {
     float: left;
     font-size:20px;
     margin-right: 38px;
   }
-  
   .dropbtn {
     display: inline-block;
     color:blue;
@@ -82,15 +73,12 @@
       position: relative;
     }
   }
-  
   .dropdown:hover .dropbtn {
     background-color:rgb(206, 222, 236);
   }
-  
   .ele1.dropdown {
     display: inline-block;
   }
-  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -107,16 +95,14 @@
     display: block;
     text-align: left;
   }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1}
   .dropdown:hover .dropdown-content {
     display: block;
   }
  
   html { overflow-y: scroll; }
   body { position: absolute; }
-
 
 .navigation {
   width: auto;
@@ -140,7 +126,6 @@
   padding: 0;
   margin: 15px; 
 }
-
 .mainmenu a {
   display: block;
   background-color: Gainsboro;
@@ -149,30 +134,24 @@
   color: rgb(71, 8, 8);
   overflow: auto;
 }
-
 .mainmenu a:hover {
     background-color: #C5C5C5;
 }
-
 .mainmenu li:hover .submenu {
   display: block;
   max-height: 200px;
 }
-
 .submenu a {
   background-color: #777;
 }
-
 .submenu a:hover {
   background-color: #666;
 }
-
 .submenu {
   overflow: hidden;
   max-height: 0;
   -webkit-transition: all 0.8s ease-out;
 }
-
 .main {
   width: 100%;
   height: auto;
@@ -181,15 +160,12 @@
   margin-top: -6px;
   flex-wrap: wrap;
 }
-
 .main .flex1{
   flex: 25%;
 }
 .main .flex2{
   flex: 75%;
 }
- 
-
 .card {
   width: 210px;
   height: auto;
@@ -222,16 +198,12 @@
     position: relative;
   } 
 }
-
-
-
 .card .width{
   width:100%;
 }
 .card .text{
   text-align: center;
 }
-
 .card .img-top {
   display: none;
   position: absolute;
@@ -240,12 +212,9 @@
   z-index: 99;
   width:100%;
 }
-
 .card:hover .img-top {
  display: block;
-
 }
-
 .footer {
   left: 0;
   bottom: 0;
@@ -261,7 +230,6 @@
   display: inline-block;
   z-index: 100;
 }
-
 .footer li{
   float:left;
   font-size:20px;
@@ -274,6 +242,30 @@
     position: relative;
   }
 }
+li{
+  cursor: pointer;
+}
+
+
+
+
+
+    
+  
+    
+
+
+
+    
+  
+    
+
+
+
+    
+  
+    
+
 
 
 
